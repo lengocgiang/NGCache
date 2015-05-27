@@ -14,6 +14,7 @@
 		51F4B8DB1B15C80700945B2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F4B8DA1B15C80700945B2B /* Images.xcassets */; };
 		51F4B8DE1B15C80700945B2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F4B8DC1B15C80700945B2B /* LaunchScreen.xib */; };
 		51F4B8EA1B15C80700945B2B /* NGCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4B8E91B15C80700945B2B /* NGCacheTests.m */; };
+		51F4B8F61B15C8EB00945B2B /* NGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4B8F51B15C8EB00945B2B /* NGCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		51F4B8E31B15C80700945B2B /* NGCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F4B8E81B15C80700945B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51F4B8E91B15C80700945B2B /* NGCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGCacheTests.m; sourceTree = "<group>"; };
+		51F4B8F41B15C8EB00945B2B /* NGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCache.h; sourceTree = "<group>"; };
+		51F4B8F51B15C8EB00945B2B /* NGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		51F4B8CC1B15C80700945B2B /* NGCache */ = {
 			isa = PBXGroup;
 			children = (
+				51F4B8F31B15C8EB00945B2B /* Cache */,
 				51F4B8D11B15C80700945B2B /* AppDelegate.h */,
 				51F4B8D21B15C80700945B2B /* AppDelegate.m */,
 				51F4B8D41B15C80700945B2B /* ViewController.h */,
@@ -117,6 +121,15 @@
 				51F4B8E81B15C80700945B2B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51F4B8F31B15C8EB00945B2B /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				51F4B8F41B15C8EB00945B2B /* NGCache.h */,
+				51F4B8F51B15C8EB00945B2B /* NGCache.m */,
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51F4B8D61B15C80700945B2B /* ViewController.m in Sources */,
+				51F4B8F61B15C8EB00945B2B /* NGCache.m in Sources */,
 				51F4B8D31B15C80700945B2B /* AppDelegate.m in Sources */,
 				51F4B8D01B15C80700945B2B /* main.m in Sources */,
 			);
